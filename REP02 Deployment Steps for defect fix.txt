@@ -1,0 +1,23 @@
+Deployment steps. 
+
+
+1.Open Unix. 
+2.Move the following packages in the /u01/oracle/apps/apps_st/appl/xxnbty/12.0.0/admin/sql using WINSCP and execute the command below in the UNIX.
+
+XXNBTY_VCP_SEND_EMAIL_PKG.pkb
+XXNBTY_MSCREP02_ONHAND_PKG.pkb
+XXNBTY_MSCREP02_WORK_ORDER_PKG.pkb
+XXNBTY_MSCREP02_WIP_PKG.pkb
+XXNBTY_MSCREP02_SALES_ORDR_PKG.pkb
+XXNBTY_MSCREP02_IN_TRANSIT_PKG.pkb
+
+sqlplus -s USERNAME/PASSWORD
+
+
+@/u01/oracle/apps/apps_st/appl/xxnbty/12.0.0/admin/sql/XXNBTY_VCP_SEND_EMAIL_PKG.pkb
+@/u01/oracle/apps/apps_st/appl/xxnbty/12.0.0/admin/sql/XXNBTY_MSCREP02_ONHAND_PKG.pkb
+@/u01/oracle/apps/apps_st/appl/xxnbty/12.0.0/admin/sql/XXNBTY_MSCREP02_WORK_ORDER_PKG.pkb
+@/u01/oracle/apps/apps_st/appl/xxnbty/12.0.0/admin/sql/XXNBTY_MSCREP02_WIP_PKG.pkb
+@/u01/oracle/apps/apps_st/appl/xxnbty/12.0.0/admin/sql/XXNBTY_MSCREP02_SALES_ORDR_PKG.pkb
+@/u01/oracle/apps/apps_st/appl/xxnbty/12.0.0/admin/sql/XXNBTY_MSCREP02_IN_TRANSIT_PKG.pkb
+
